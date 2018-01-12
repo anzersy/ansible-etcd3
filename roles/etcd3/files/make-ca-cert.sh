@@ -59,11 +59,11 @@ for dns in "${node_dns[@]}"; do
     san_array+=(${dns})
 done
 
-mkdir -p bin
-curl -sSL -o ./bin/cfssl "https://pkg.cfssl.org/R1.2/cfssl_$arch"
-curl -sSL -o ./bin/cfssljson "https://pkg.cfssl.org/R1.2/cfssljson_$arch"
-chmod +x ./bin/cfssl{,json}
-export PATH="$PATH:${tmpdir}/bin/"
+#mkdir -p bin
+#curl -sSL -o ./bin/cfssl "https://pkg.cfssl.org/R1.2/cfssl_$arch"
+#curl -sSL -o ./bin/cfssljson "https://pkg.cfssl.org/R1.2/cfssljson_$arch"
+#chmod +x ./bin/cfssl{,json}
+#export PATH="$PATH:/usr/local/bin/"
 
 cat <<EOF > ca-config.json
 {

@@ -17,8 +17,18 @@
     mode: "0500"
   run_once: true
   delegate_to: "{{ groups['etcd-nodes'][0] }}"
-  
-  
+
+- name: copy cfssl binary
+  copy:
+    src: "tmp/cfssl/{{ item }}"
+    dest: "/usr/bin"
+    owner: etcd
+    group: etcd
+    mode: 0750
+  with_items:
+    - cfssl
+    - cfssljson
+
 - name: gen certs on the first etcd server
   command:
     "{{ etcd_certs_dir }}/make-ca-cert.sh"
@@ -57,7 +67,10 @@
     mode: 0640
   with_items: "{{ pki_certs.results }}"
   when: inventory_hostname != groups['etcd-nodes'][0]
-  
+
+#- name : debug pki_certs
+#  debug : var=pki_certs verbosity=0
+
 - name: ensure etcd certs perm
   file:
     path: "{{ item }}"
