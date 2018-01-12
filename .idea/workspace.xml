@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c128e9-a236-4776-b4ed-c4e197520ae2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/inventories/dev/host_vars/vm1.yml" afterPath="$PROJECT_DIR$/inventories/dev/host_vars/E1.yml" />
-      <change beforePath="$PROJECT_DIR$/inventories/dev/host_vars/vm2.yml" afterPath="$PROJECT_DIR$/inventories/dev/host_vars/E2.yml" />
-      <change beforePath="$PROJECT_DIR$/inventories/dev/host_vars/vm3.yml" afterPath="$PROJECT_DIR$/inventories/dev/host_vars/E3.yml" />
-      <change beforePath="$PROJECT_DIR$/inventories/dev/hosts" afterPath="$PROJECT_DIR$/inventories/dev/hosts" />
-      <change beforePath="$PROJECT_DIR$/roles/etcd3/files/make-ca-cert.sh" afterPath="$PROJECT_DIR$/roles/etcd3/files/make-ca-cert.sh" />
-      <change beforePath="$PROJECT_DIR$/roles/etcd3/tasks/gen-etcd-certs.yml" afterPath="$PROJECT_DIR$/roles/etcd3/tasks/gen-etcd-certs.yml" />
-      <change beforePath="$PROJECT_DIR$/roles/etcd3/tasks/install-etcd-bin.yml" afterPath="$PROJECT_DIR$/roles/etcd3/tasks/install-etcd-bin.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <first_editor relative-caret-position="304">
+                <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -370,12 +361,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515727746675</updated>
-      <workItem from="1515727747872" duration="16168000" />
+      <workItem from="1515727747872" duration="16704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16168000" />
+    <option name="totallyTimeSpent" value="16704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1886" height="1056" extended-state="0" />
@@ -601,8 +592,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />

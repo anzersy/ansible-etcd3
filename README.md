@@ -14,6 +14,6 @@ A role which installs and manages a clustered etcd 3.x on CentOS 7
 ```    
    ansible-playbook -i inventories/dev/hosts deploy-etcd3.yml
 ```
-##Link
+## Link
 https://github.com/anzersy/contrib/tree/master/ansible
 
